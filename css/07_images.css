@@ -1,0 +1,17 @@
+img{
+    width: 400px;
+    /*Gewährleistet richtiges Skalieren, sofern eine fixe Breite angegeben wird*/
+    height: auto;
+    /*Bild auf die maximale Bildgröße begrenzen*/
+    max-width: 100%;
+}
+
+.background{
+    color: white;
+    height: 500px;
+    background-image: url("../img/gewitterstimmung.jpg");
+    background-position: left 40%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}

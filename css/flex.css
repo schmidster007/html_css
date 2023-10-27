@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+.box{
+    background-color: rgb(21, 203, 223);
+    border: 3px solid #333333;
+   
+    flex-basis: 25%;
+}
+.flex{
+    display: flex;
+    justify-content: ;
+}

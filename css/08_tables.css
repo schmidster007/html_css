@@ -1,0 +1,17 @@
+/*Gruppenselektor*/
+table,
+th,
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+/*Even ist gerade, odd ist ungerade*/
+tr:nth-of-type(even){
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-of-type(1){
+    background-color: green;
+}

@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    color: #eee;
+}
+
+h2{
+color: red;
+}
+
+p{
+    color: #888;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.color{
+    background-color: bisque;
+}
+
+.pColor{
+    color: blue;
+}
+
+h2.pColor{
+    background-color: aqua;
+}
